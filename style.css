@@ -317,8 +317,9 @@ footer .image-wrapper {
     padding: 3rem 0 6rem 0;
   }
   h1 {
-    font-size: 8rem;
+    font-size: 9rem;
     line-height: 8rem;
+    margin-top: 2rem;
   }
   h1 span {
     position: relative;
@@ -334,11 +335,22 @@ footer .image-wrapper {
     font-size: 1.2rem;
     max-width: 400px;
   }
+  #image-1 {
+    left: -80px;
+  }
+  #image-2 {
+    top: 5%;
+    right: 10%;
+  }
+  #image-2 img {
+    float: right;
+    width: 85%;
+  }
   #image-7 {
     display: block;
     position: absolute;
-    top: 43%;
-    right: 43%;
+    top: 45%;
+    right: 36%;
     z-index: 1;
   }
   #image-7 img {
@@ -356,8 +368,8 @@ footer .image-wrapper {
     position: absolute;
   }
   #image-4 {
-    top: 40%;
-    right: 11.5%;
+    top: 44%;
+    right: 1.5%;
   }
   #image-4 img {
     float: right;
@@ -372,12 +384,16 @@ footer .image-wrapper {
     float: right;
   }
   #image-6 {
-    top: 8%;
-    right: 37%;
+    top: 10%;
+    right: 30%;
   }
   #image-6 img {
     float: right;
     width: 80%;
+  }
+  footer {
+    bottom: -2rem;
+    position: fixed;
   }
 }
 /*# sourceMappingURL=style.css.map */
